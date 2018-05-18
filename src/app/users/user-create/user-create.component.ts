@@ -21,7 +21,7 @@ export class UserCreateComponent implements OnInit {
     this.user = {};
   }
 
-  createBook(book:Object) {
+  createBook(user:Object) {
     this.userService.addUser(user).then((resp) => {
       this.router.navigate(['/users']);
     });
