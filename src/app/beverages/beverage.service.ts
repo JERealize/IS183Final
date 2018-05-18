@@ -57,6 +57,7 @@ export class BeverageService {
         .then((resp) => {
             let beverage = resp.json();
             return beverage;
+        });
     }
 
 }

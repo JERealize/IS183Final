@@ -5,7 +5,7 @@ import { environment } from '../../environments/environment';
 import 'rxjs';
 
 @Injectable()
-export class BookService {
+export class UserService {
 
     private apiUrl: string;
 
